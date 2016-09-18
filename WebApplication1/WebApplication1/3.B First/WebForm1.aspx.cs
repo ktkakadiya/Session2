@@ -26,8 +26,7 @@ namespace WebApplication1
             
             con.Open();
             rdr = com.ExecuteReader();
-            rdr.Read();
-            if (rdr != null)
+            if (rdr.Read())
             {
                 Session["user"] = TextBox1.Text;
                 Response.Redirect("WebForm2.aspx");

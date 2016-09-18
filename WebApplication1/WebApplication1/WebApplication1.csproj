@@ -125,6 +125,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="3.B Second\Delete.aspx" />
+    <Content Include="3.B Second\Update.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
@@ -252,6 +254,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3.B Second\Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3.B Second\Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3.B Second\Update.aspx.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3.B Second\Update.aspx.designer.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="About.aspx.cs">
